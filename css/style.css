@@ -1,7 +1,9 @@
 * {
     margin: 0%;
     padding: 0%;
-    /* font-family: sans-serif; */
+}
+body {
+    font-family: 'Pangolin', cursive;
 }
 .logo {
     max-width: 300px;
@@ -33,7 +35,6 @@
 .navbar ul li a
 {
     text-decoration: none;
-    font-family: 'Lilita One', cursive;
     color: #009688;
     text-transform: uppercase;
 }
@@ -73,20 +74,17 @@
 .content h1
 {
     font-size: 70px;
-    font-family: 'Lilita One', cursive;
     margin-top: 80px;
 }
 .content p
 {
     margin: 20px auto;
-    font-family: 'Lilita One', cursive;
     font-weight: 100;
     line-height: 25px;
 }
 button
 {
     width: 200px;
-    font-family: 'Lilita One', cursive;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -102,6 +100,7 @@ button
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    font-family: 'Pangolin', cursive;
 } 
 span
 {
